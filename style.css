@@ -1,0 +1,53 @@
+body {
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+	grid-template-rows: 1fr 5fr 1fr;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+	text-transform: uppercase;
+	top: 15%;
+	background: linear-gradient(to right, red, yellow);
+}
+
+.container {
+	grid-column: 2/3;
+	grid-row: 2/3;
+	background-color: white;
+	opacity: 0.5;
+	border-radius: 30px;
+	padding: 30px;
+}
+
+h1 {
+	font: 600 3.5em sans-serif;
+	letter-spacing: 0.5em;
+	width: 100%;
+
+}
+
+h2 {
+	font: 900 1em sans-serif;
+	width: 100%;
+}
+
+h3 {
+	font: 900 1em sans-serif;
+	text-transform: none;
+	letter-spacing: 0.01em;
+
+}
+
+#genbutton {
+	background-color:  rgb(82, 194, 173);
+	padding: 1rem;
+	border-radius: 15px;
+}
+
+.color1, .color2 {
+	border:none;
+	padding: 2px;
+	width: 50px;
+	height: 50px;
+	margin: 10px 25px;
+	box-shadow: 6px 6px 8px #888; 
+}
